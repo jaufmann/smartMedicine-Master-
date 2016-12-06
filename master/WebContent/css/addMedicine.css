@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+table.overview {
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+table.overview td {
+	width:200px;
+}
+
+font{
+	font-size:30px;	
+}
+
+img {
+	width:80px; 
+	height:80px;	
+}
+
+img.transparent{
+	opacity:0.4;
+}
+ 
+font.transparent{
+	opacity:0.4;
+}

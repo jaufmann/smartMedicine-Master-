@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Horizontales Zentrieren mit CSS</title>
+	
+	<!-- Stylesheet Dateien -->
+	<link rel="stylesheet" href="css/medikamentenVerwalten.css">
+	<link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+  </head>
+  <body>   
+  
+  <!-- Navigationsfelder -->
+   <div class="divContainer" id="divContainer"> 
+   
+     <!-- Überschrift -->
+  <div class="header" align="center" id="header">
+  	<h1 class="page-header"><font class="header"> Medikamente</font></h1>
+  </div>
+  
+   <table class="tableContainer"> 
+   	<tr  class="head">
+ 	<td>	
+     <button id="btnMedikamentHinzufuegen" class='gruen size btn btn-success' ><img src="img/hinzufuegen_logo.png"></button>
+    </td>
+    <td  class="head">	
+     <button id="btnMedikamentenUebersicht" class='blau size btn btn-primary' ><img src="img/uebersicht_logo.png"/></button>
+    </td>
+    </tr>
+    <tr  class="head">
+ 	<td >	
+     <button id="btnEditMedicine" class='gelb size btn btn-warning'><img src="img/bearbeiten_logo.png"/></button>
+    </td>
+    <td>	
+     <button id="btnMedikamenteLoeschen" class='rot size btn btn-danger'><img src="img/loeschen_logo.png"/></button>
+    </td>
+    </tr>
+    <tr>
+    
+    <td><button id="medikamenteVerwaltenZurueck" class='btn btn-primary'><font>zurück</font></button></td>
+    </tr>
+   </table>
+      
+   </div>
+   
+   	<!-- Javascript -->
+	 <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+     <script type = "text/javascript" src="js/navigation.js" /></script>	
+  </body>
+</html>
