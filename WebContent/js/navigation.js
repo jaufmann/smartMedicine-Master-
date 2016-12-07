@@ -37,8 +37,8 @@ $(document).ready(function() {
    
    
 
-   $("#btnMedikamenteLoeschen").click(function(event){
-       $('#divContainer').load('medikamenteLoeschen.html');
+   $("#btnDeleteMedicine").click(function(event){
+       $('#divContainer').load('deleteMedicine.html');
    });
    
    $("#btnAddMedicineForwardFirst").click(function(event){
