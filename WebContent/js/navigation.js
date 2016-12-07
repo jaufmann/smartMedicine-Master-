@@ -3,12 +3,12 @@
  */
 
 $(document).ready(function() {
-   $("#btnMedikamenteVerwalten").click(function(event){
-       $('#divContainer').load('medikamentenVerwaltung.html');
+   $("#btnManageMedicine").click(function(event){
+       $('#divContainer').load('manageMedicine.html');
    });
    
-   $("#btnMedikamentenUebersicht").click(function(event){
-       $('#divContainer').load('medikamentenUebersicht.html');
+   $("#btnMedicineOverview").click(function(event){
+       $('#divContainer').load('medicineOverview.html');
    });
    
    
@@ -63,8 +63,8 @@ $(document).ready(function() {
        $('#mainContainer').load('start.html');
    });
    
-   $("#btnMedikamentenUebersichtZurueck").click(function(event){
-       $('#divContainer').load('medikamentenVerwaltung.html');
+   $("#btnBackToManageMedicine").click(function(event){
+       $('#divContainer').load('manageMedicine.html');
    });
    
    
