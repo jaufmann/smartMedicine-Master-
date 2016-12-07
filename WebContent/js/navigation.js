@@ -16,30 +16,19 @@ $(document).ready(function() {
        $('#divContainer').load('editMedicine.html');
    });
    
-   $("#btnVisuell").click(function(event){
-       $('#divContainer').load('visuell.html');
-   });
-
-   
-   $("#btnAkustisch").click(function(event){
-       $('#divContainer').load('akustisch.html');
-   });
-
-   
-   $("#btnVisuellZurueck").click(function(event){
-	   $('#divContainer').load('benachrichtigungenVerwalten.html');
-   });
-   
-   
-   $("#btnAkustischZurueck").click(function(event){
-	   $('#divContainer').load('benachrichtigungenVerwalten.html');
-   });
-   
-   
 
    $("#btnDeleteMedicine").click(function(event){
        $('#divContainer').load('deleteMedicine.html');
    });
+   
+   $("#btnVisual").click(function(event){
+       $('#divContainer').load('visual.html');
+   });
+
+   $("#btnAcoustical").click(function(event){
+       $('#divContainer').load('acoustical.html');
+   });
+
    
    $("#btnAddMedicineForwardFirst").click(function(event){
        $('#divContainer').load('addMedicine2.html');
@@ -55,11 +44,11 @@ $(document).ready(function() {
        $('#divContainer').load('einstellungen.html');
    });
 
-   $("#btnPersonen").click(function(event){
-       $('#divContainer').load('personen.html');
+   $("#btnManageContactPerson").click(function(event){
+       $('#divContainer').load('manageContactPerson.html');
    });
    
-   $("#medikamenteVerwaltenZurueck").click(function(event){
+   $("#btnStart").click(function(event){
        $('#mainContainer').load('start.html');
    });
    
@@ -68,20 +57,15 @@ $(document).ready(function() {
    });
    
    
-
-   $("#btnPersonenZurueck").click(function(event){
-       $('#divContainer').load('einstellungen.html');
-   }); 
-   
-   $("#btnBenachrichtigungen").click(function(event){
-       $('#divContainer').load('benachrichtigungenVerwalten.html');
+   $("#btnManageNotification").click(function(event){
+       $('#divContainer').load('manageNotification.html');
    });
    
    $("#btnMedikamentHinzufuegen").click(function(event){
        $('#divContainer').load('addMedicine.html');
    });
    
-   $("#btnBenachrichtgungZurueck").click(function(event){
-       $('#divContainer').load('einstellungen.html');
+   $("#btnConfiguration").click(function(event){
+       $('#divContainer').load('configuration.html');
    });
 });

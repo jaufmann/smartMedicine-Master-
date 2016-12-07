@@ -5,22 +5,14 @@
     <link rel="stylesheet" href="css/medikamentenVerwalten.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-toggle.min.css" rel="stylesheet">
-     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">	
     
-    
-    
+    <!-- Javascript Files-->
   	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/bootstrap-toggle.min.js"></script>
   	<script type ="text/javascript" src="js/navigation.js" /></script>	
   	<script src="js/lightSelection.js" type="text/javascript"></script>	
-  	
-  	<script>
-  $(function() {
-   
-  })
-</script>
 </head>
 <body>
 
@@ -28,9 +20,7 @@
    <div class="header" align="center" id="header">
   	<h1 class="page-header"><font class="header"> Smart Medicine</font></h1>
    </div> 
-   
-    <!-- overview of the current status -->
-		
+   	
     <!-- input fields -->         
     <br/>
     <br/>
@@ -42,14 +32,16 @@
     </table>
     <br/>
     <br/>
-    <!-- Displaying the different lamp colors -->
+    
+    
+    <!-- Displaying the different lamp colors to choose -->
 	<div id="lighSelection" align="center" style="background-color:#F8F8F8">
 	<table>
 		<tr>
-		  	<td>  	<a id="aViolette"><img onmouseover="violetteHover(this)" id="aViolette" onmouseout="violetteNormal(this)" class="myImage" src='img/violette_3.png' width='150' height='150'/></a></td>
-		    <td>	<a id="aRed"><img onmouseover="bigImg(this)" id="aRed" name="red" onmouseout="normalImg(this)" class="myImage" src='img/red_3.png' width='150' height='150'/></a></td>
-		    <td>	<a id="aBlue"><img id="aBlue" name="red" onmouseover="blueHover(this)" onmouseout="blueNormal(this)"  class="myImage" src='img/blue_3.png' width='150' height='150'/></a></td>
-		    <td>	<a id="aGreen"><img id="aGreen" name="red" onmouseover="greenHover(this)" onmouseout="greenNormal(this)" class="myImage" src='img/green_3.png' width='150' height='145'/></a></td>
+		  	<td><a id="aViolette"><img onmouseover="violetteHover(this)" id="aViolette" onmouseout="violetteNormal(this)" class="myImage" src='img/violette_3.png' width='150' height='150'/></a></td>
+		    <td><a id="aRed"><img onmouseover="bigImg(this)" id="aRed" name="red" onmouseout="normalImg(this)" class="myImage" src='img/red_3.png' width='150' height='150'/></a></td>
+		    <td><a id="aBlue"><img id="aBlue" name="red" onmouseover="blueHover(this)" onmouseout="blueNormal(this)"  class="myImage" src='img/blue_3.png' width='150' height='150'/></a></td>
+		    <td><a id="aGreen"><img id="aGreen" name="red" onmouseover="greenHover(this)" onmouseout="greenNormal(this)" class="myImage" src='img/green_3.png' width='150' height='145'/></a></td>
 		</tr>
 	  	<tr>
 			<td align="center" id="tdViolette"></td>
@@ -59,17 +51,15 @@
 		</tr>
 	</table>
 	</div>
-    
     <br/>
     <br/>
     <br/>    
     <table width="100%">
     <tr>
-    	<td align="left"><button id="btnVisuellZurueck" class='btn btn-primary'><font class="white">zurück</font></button></td>
+    	<td align="left"><button id="btnManageNotification" class='btn btn-primary'><font class="white">zurück</font></button></td>
     	<td align="right"><button id="btnAddMedicineForwardFirst" class='btn btn-success'><font class="white">speichern</font></button></td>	
     </tr>
     </table>
   </div>	 
-
 </body>
 </html>
